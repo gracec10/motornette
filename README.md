@@ -37,24 +37,34 @@ Electronics
 - Drill a hole into the center of the wooden dowel cross, into the side facing downwards. Add a washer and screw into the hole. The screw does not need to be screwed in all the way.
 - Drill a hole into the top of the marionette's head. Add a washer and screw into the hole. The screw does not need to be screwed in all the way. Attach a string (~2 ft) from the screw in the cross to the screw in the marionette.
 
+![Drilling into Marionette](photos/Drilling into marionette.jpg)
+
+
 *Piston*:
 - Create the piston by threading the following items onto a nail, in this order: small washer, 0.5 x 4.3 inch wooden support, medium washer, 0.4 x 1.3 inch wooden support, small washer. 
 - Add a ball hot glue on either side of the nail to create a stopper. Make sure the ball of glue is larger than the opening for the small washer.
 - Glue the other end of the 0.5 x 4.3 inch wooden support to the servo motor rotator. Make sure that the small wooden support is facing outward.
+
+![Piston Closeup](photos/Piston.jpg)
 
 *Final*:
 - Arrange all of the pistons so that they are fully extended downwards, in line with the o.5 x 5 inch support pieces. Attach a string from each of the small wooden supports to each of the marionette's limbs. The strings should be fully extended when the marionette's arms and legs are in a lowered position. Make sure the strings are not too loose or tight, otherwise the marionette will not dance properly.
 - Mount the ESP32 on the underside of the wooden cross. Attach a power/ground strip from a breadboard. Wire according to the Arduino code, such that the motor for each limb corresponds to the correct input pin on the ESP32.
 - Tape or wrap wires to reduce clutter.
 
-## Software Build
+![ESP32 Wiring](photos/Wiring.jpg)
 
-The
+## Software for Motornette
 
+Motornette is controlled by two programs:
 
-## Controlling Motornette
+*Arduino*: The Arduino component of this project must be flashed onto your ESP32. You can use the Arduino IDE to do this. This code controls the four servo motors that are pulling strings to make motornette dance. This program takes in serial input from Processing and uses these values to make motornette's limbs dance in a specific order.
 
-To use the motornette, flash the code from arduino.ino onto your ESP32. Then, run the Processing on your machine. Your ESP32 will need to be connected to your computer by a micro-USB cable capable of data transfer.
+*Processing*: The Processing component of this project takes keyboard input and sends the input to the ESP32 through a serial port. To start the program and start communicating with motornette, you must run the Processing code. Then, use the arrow keys to move each one of motornette's limbs.You can press as many arrow keys as you want. This will just make motornette dance for longer. Press SHIFT to send the commands to the ESP32.
 
-
-
+*Key Controls*:
+- Left arm: LEFT
+- Right arm: RIGHT
+- Left leg: UP
+- Right leg: DOWN
+- Send data: SHIFT
