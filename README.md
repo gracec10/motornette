@@ -45,14 +45,14 @@ Electronics
 - Add a ball hot glue on either side of the nail to create a stopper. Make sure the ball of glue is larger than the opening for the small washer.
 - Glue the other end of the 0.5 x 4.3 inch wooden support to the servo motor rotator. Make sure that the small wooden support is facing outward.
 
-![Piston Closeup](photos/piston.jpg)
+![Piston Closeup](photos/Piston.jpg)
 
 *Final*:
 - Arrange all of the pistons so that they are fully extended downwards, in line with the o.5 x 5 inch support pieces. Attach a string from each of the small wooden supports to each of the marionette's limbs. The strings should be fully extended when the marionette's arms and legs are in a lowered position. Make sure the strings are not too loose or tight, otherwise the marionette will not dance properly.
 - Mount the ESP32 on the underside of the wooden cross. Attach a power/ground strip from a breadboard. Wire according to the Arduino code, such that the motor for each limb corresponds to the correct input pin on the ESP32.
 - Tape or wrap wires to reduce clutter.
 
-![ESP32 Wiring](photos/wiring.jpg)
+![ESP32 Wiring](photos/Wiring.jpg)
 
 ## Software for Motornette
 
