@@ -6,7 +6,7 @@ char[] dance = {};
 
 void setup() {
   printArray(Serial.list());
-  myPort = new Serial(this, Serial.list()[8], 115200);
+  myPort = new Serial(this, Serial.list()[11], 115200);
 }
 
 void draw() {  
@@ -27,12 +27,12 @@ void keyPressed() {
     dance = append(dance, '2');
   }
   
-  //right leg
+  //left leg
   if (keyCode == UP){
     dance = append(dance, '3');
   }
   
-  //left leg
+  //right leg
   if (keyCode == DOWN){
     dance = append(dance, '4');
   }
