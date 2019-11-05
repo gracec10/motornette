@@ -37,7 +37,8 @@ Electronics
 - Drill a hole into the center of the wooden dowel cross, into the side facing downwards. Add a washer and screw into the hole. The screw does not need to be screwed in all the way.
 - Drill a hole into the top of the marionette's head. Add a washer and screw into the hole. The screw does not need to be screwed in all the way. Attach a string (~2 ft) from the screw in the cross to the screw in the marionette.
 
-![Drilling into Marionette](photos/Drilling\ into\ marionette.jpg)
+![Drilling into Marionette](photos/Drilling into marionette.jpg)
+
 
 *Piston*:
 - Create the piston by threading the following items onto a nail, in this order: small washer, 0.5 x 4.3 inch wooden support, medium washer, 0.4 x 1.3 inch wooden support, small washer. 
